@@ -7,8 +7,8 @@ Description:
     Calculates and plots the post-accretion atmospheric mass fraction of accreted materials 
     
     Inputs:
-    - Atmospheric (planet) properties (Metallicity, Opacity, Disk density, Orbital distance, Core mass, Advective depth, GCR).
-    - Impactor properties (Material, radius)
+    - Desired atmosphere profile (Metallicity, Opacity, Disk density, Orbital distance, Core mass, Advective depth, GCR).
+    - Desired impactor properties (Material, Size)
     - Solid disk density (fraction of MMEN)
     - Formation type (in situ, migrating)
     - Accretion timescale

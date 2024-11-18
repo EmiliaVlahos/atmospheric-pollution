@@ -7,8 +7,8 @@ Description:
     Calculates and plots the post-accretion Carbon to Oxygen number ratio from the accretion of water ice and refractory carbon.
     
     Inputs:
-    - Atmospheric (planet) properties (Metallicity, Opacity, Disk density, Orbital distance, Core mass, Advective depth, GCR).
-    - Impactor properties (radius)
+    - Desired atmosphere profile (Metallicity, Opacity, Disk density, Orbital distance, Core mass, Advective depth, GCR).
+    - Desired impactor properties (size)
     - Solid disk density (fraction of MMEN)
     - Formation type (in situ, migrating)
     - Accretion timescale

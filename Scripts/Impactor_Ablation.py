@@ -7,12 +7,13 @@ Description:
     Simulates the dynamics and ablation of an impactor as it travels through a planetary atmosphere up to the (outermost) radiative-convective boundary.
     
     Inputs:
-    - Atmospheric (planet) properties (Metallicity, Opacity, Disk density, Orbital distance, Core mass, Advective depth, GCR).
-    - Impactor properties (Material, radius)
+    - Atmospheric properties (Altitude, Temperature, Pressure, Density, Mean molecular weight, Adiabatic index).
+        - Atmospheric profile is characterized by parameters of metallicity, opacity, disk density, orbital distance, core mass, advective depth, and GCR.
+    - Impactor properties (Material, size)
     
     Outputs:
     - Impactor properties (Surface Temperature, Velocity, Radius, Mass/Mass Ablated) 
-    - Corresponding atmospheric properties (Altitude, Temperature, Pressure, Density)
+    - Corresponding atmospheric properties
 
 """
 
