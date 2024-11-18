@@ -28,7 +28,7 @@ from Constants import *
 from Functions import *
 
 # directory from which data is imported
-interim_dir = '/Users/emiliavlahos/Atmospheric_Pollution_repo/interim_data/' # directory where intermidiate ablation data is stored
+interim_dir = '/Users/emiliavlahos/atmospheric-pollution-repo/interim_data/' # directory where intermidiate ablation data is stored
 
 #%% Select atmospheric properties
 # indices:

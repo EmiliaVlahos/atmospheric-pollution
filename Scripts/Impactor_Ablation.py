@@ -48,7 +48,7 @@ print(f"Running atmosphere with label:{label}")
 
 #%% Load data from corresponding profile
 
-input_dir = 'Users/emiliavlahos/Atmospheric_Pollution_repo/input_data' # input directory where necessary folders are stored
+input_dir = 'Users/emiliavlahos/atmospheric-pollution-repo/input_data' # input directory where necessary folders are stored
 envelope_data = f"/{input_dir}/{path}/" # directory corresponding to specific profile
 
 def load_and_convert(zone):
@@ -257,7 +257,7 @@ plt.ylabel('Mass, kg')
 plt.legend()
 
 #%%% Save data 
-interim_dir = '/Users/emiliavlahos/Atmospheric_Pollution_repo/interim_data/' # directory where intermidiate ablation data is stored
+interim_dir = '/Users/emiliavlahos/atmospheric-pollution-repo/interim_data/' # directory where intermidiate ablation data is stored
 directory = f"{interim_dir}ablation_profiles/{material_label}/{size_label}/{path}"
 
 os.makedirs(directory, exist_ok=True)
